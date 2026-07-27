@@ -1,0 +1,8 @@
+services:
+  hello-word:
+    image: hello-word
+    restart: always
+    ports:
+      - "8081:8080"
+    networks:
+      - karavan
